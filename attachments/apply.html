@@ -1,0 +1,25 @@
+<!doctype html>
+<meta charset=utf-8>
+<title>Apply a function to all docs</title>
+
+<link rel=stylesheet href=apply.css>
+
+<script src=apply.js></script>
+
+<h1>Apply a function to all docs</h1>
+
+<p class=status>
+
+<div class=edit>
+  <p><select class=load></select>
+  <p><textarea class=function></textarea>
+  <p><button class=preview>Preview</button>
+</div>
+
+<div class=preview>
+  <h2>Docs that will be edited</h2>
+  <ul class=docs></ul>
+  <p><button class=apply>Apply</button>
+</div>
+
+<script>init();</script>

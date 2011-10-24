@@ -1,0 +1,41 @@
+<!doctype html>
+<meta charset=utf-8>
+
+<title>Planning: Sander Dijkhuis</title>
+
+<meta name=apple-mobile-web-app-capable content=yes>
+<meta name=viewport content='initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no'>
+
+<link rel=stylesheet/less href=style.css>
+
+<script src=jquery-1.6.4.min.js></script>
+<script src=less-1.1.3.min.js></script>
+<script src=app.js></script>
+
+<header>
+  <h1>Planning</h1>
+</header>
+
+<section class=timeline-wrapper>
+  <div class=timeline></div>
+</section>
+
+<section class=controls>
+  <p><button name=new>new activity</button>
+  <p><label><input type=checkbox name=compact> compact view</label>
+  <ul class=types></ul>
+</section>
+
+<section class=notes>
+  <p>weeks 42–44 are self-directed
+</section>
+
+<div class=popup>
+  <button name=cancel>Cancel</button> <button name=save>Save</button>
+  <input type=hidden name=id>
+  <p><label>Name: <input name=name autocapitalize=off autocorrect=off></label>
+  <p><label>Type: <select name=type></select></label>
+  <p><label>Deadline: <input name=deadline type=datetime-local></label>
+  <p><label>Deliverable: <input name=deliverable autocapitalize=off autocorrect=off></label>
+  <p><label>Moments: <textarea name=moments autocapitalize=off autocorrect=off></textarea></label>
+</div>
